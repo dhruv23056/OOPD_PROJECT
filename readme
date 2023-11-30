@@ -1,0 +1,35 @@
+shell:
+    To compile the shell program, use the following commands:
+    g++ -std=c++17 -pthread -o shell_program shell_program.cpp
+
+    Run the compiled program with the following command:
+    ./shell_program
+
+    The shell supports wildcard character * in the mv and cp commands.
+    The program measures the execution time for each command and displays it.
+
+mv-threaded:
+
+    This C++ program provides a file mover utility with multi-threading support. The program allows users to move files from a source directory to a destination directory, with the option to move multiple files concurrently.
+
+    To compile the file mover program, use the following commands:
+    g++ -std=c++17 -pthread -o file_mover file_mover.cpp
+
+    Run the compiled program with the following command:    
+    ./file_mover
+
+    Supports moving files from a source directory to a destination directory.
+    Multi-threaded operation for moving multiple files concurrently.
+    Interactive mode (-i flag) for prompting before overwriting files in the destination.
+    Measures the execution time for the file moving operation.
+
+
+cp-threaded:
+
+    This C++ program provides a file copying utility with multi-threading support. The program allows users to copy files and directories from a source location to a destination, with the option to copy multiple files concurrently.
+
+
+    Supports copying files and directories from a source location to a destination.
+    Multi-threaded operation for copying multiple files concurrently.
+    Recursive copying (-r flag) for copying entire directories.
+    Measures the execution time for the file copying operation.
